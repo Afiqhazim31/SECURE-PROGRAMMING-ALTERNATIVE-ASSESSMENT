@@ -1,5 +1,5 @@
 <?php
-require_once 'db_config.php';
+require_once 'other_files/db_config.php';
 
 function encrypt_aes_256_gcm($plaintext, $key) {
     if (strlen($key) !== 32) {

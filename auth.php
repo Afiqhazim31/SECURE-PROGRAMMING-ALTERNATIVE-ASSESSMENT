@@ -1,5 +1,5 @@
 <?php
-require_once 'db_config.php';
+require_once 'other_files/db_config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $inputKey = $_POST['auth_key'] ?? '';

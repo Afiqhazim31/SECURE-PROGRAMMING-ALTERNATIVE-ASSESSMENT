@@ -1,5 +1,5 @@
 <?php
-require_once 'db_config.php';
+require_once 'other_files/db_config.php';
 
 $keyword = $_GET['keyword'] ?? '';
 
