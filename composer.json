@@ -1,0 +1,18 @@
+{
+    "name": "secr4483/assessment",
+    "description": "Secure programming assignment security tests",
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "config": {
+        "platform": {
+            "php": "8.3.13"
+        }
+    },
+    "autoload": {
+        "files": [
+            "db_config.php",
+            "crypto_vault.php"
+        ]
+    }
+}

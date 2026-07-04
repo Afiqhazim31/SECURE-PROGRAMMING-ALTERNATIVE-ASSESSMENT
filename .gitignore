@@ -1,0 +1,12 @@
+# Decoupled Environment Secrets
+.env
+
+# Composer Dependencies
+/vendor/
+
+# Temporary and Log files
+*.log
+student_doc_text.txt
+inspect_*.ps1
+test_*.ps1
+temp_doc.docx
